@@ -1,0 +1,64 @@
+{
+	"ziph" : 
+	{
+		"class" : "artificer",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Ziph",
+			"biography" : "Ziph had long served as a maid to an old mage who looked down on her and her kin. The wizard had no idea that ''ziph'' meant ''freedom'' in Gremlish, much less did he suspect that she was listening in on his lectures. One day, Ziph crammed half of her master's lab into a magic bag, hid in a ship's hold, and fled Bracada for good.",
+			"specialty" : 
+			{
+				"description" : "{Lightning Bolt}\r\n\r\nCasts Lightning Bolt with damage increased by 3% for every n hero levels, where n is the level of the targeted creature.",
+				"tooltip" : "Spell Bonus: Lightning Bolt",
+				"name" : "Lightning Bolt"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/ziph/spec-small.bmp",
+			"specialtyLarge" : "ciberium/heroes/ziph/spec-large.bmp",
+			"large" : "ciberium/heroes/ziph/portrait-large.bmp",
+			"small" : "ciberium/heroes/ziph/portrait-small.bmp"
+		},
+
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"bolt" : {
+					"val" : 3,
+					"subtype" : "spell.lightningBolt",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"propagationUpdater" : "TIMES_HERO_LEVEL",
+					"updater" : "TIMES_STACK_LEVEL",
+					"propagator": "HERO"
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,59 @@
+{
+	"murdoch" : 
+	{
+		"class" : "mercenary",
+		"female" : false,
+		"special" : true,
+		"texts" :
+		{
+			"name" : "Murdoch",
+			"biography" : "Murdoch is a man to call a professional soldier of fortune. He barely likes anything more than money and fame. That is why Murdoch gathered a company of daredevils of his own kind and went to seek adventures on the landscapes of Jadame. Who knows where his fate will take him next time?",
+			"specialty" :
+			{
+				"description" : "{Archery}\r\n\r\nReceives a 5% per level bonus to Archery skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Archery",
+				"name" : "Archery"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/niclas/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/niclas/spec-large.png",
+			"large" : "ciberium/heroes/niclas/portrait-large.png",
+			"small" : "ciberium/heroes/niclas/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"archery" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}

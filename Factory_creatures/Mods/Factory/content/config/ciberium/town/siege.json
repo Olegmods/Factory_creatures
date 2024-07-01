@@ -1,0 +1,60 @@
+{
+	"factoryUn" :
+	{
+		"town" :
+		{
+			"siege" :
+			{
+				"shooter" : "faGunslinger",
+				"towerIconSmall" : "towerSmall",
+				"towerIconLarge" : "towerLarge",
+				"imagePrefix" : "ciberium/siege/SGFA",
+				"gate" :
+				{
+					"arch" : { "x" : 480, "y" : 211 },
+					"gate" : { "x" : 426, "y" : 282 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 414, "y" : 79 },
+					"moat" : { "x" : 414, "y" : 79 } 
+				},
+				"static" :
+				{
+					"background" : { "x" : 630, "y" : 56 },
+					"bottom" : { "x" : 529, "y" : 367 },
+					"top" : { "x" : 510, "y" : 87}
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 612, "y" : 507 },
+						"creature" : { "x" : 391, "y" : 311 },
+						"tower" : { "x" : 612, "y" : 507 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 714, "y" : 152 },
+						"creature" : { "x" : 536, "y" : -26 },
+						"tower" : { "x" : 714, "y" : 152 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 583, "y" : 14 },
+						"creature" : { "x" : 356, "y" : -171 },
+						"tower" : { "x" : 583, "y" : 14 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 579, "y" : 458 },
+					"bottomMid" : { "x" : 506, "y" : 317 },
+					"upper" : { "x" : 555, "y" : 64 },
+					"upperMid" : { "x" : 496, "y" : 185 }
+				}
+			}
+		}
+	}
+}
+

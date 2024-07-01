@@ -1,0 +1,53 @@
+{
+	"umender" : 
+	{
+		"class" : "artificer",
+		"texts" :
+		{
+			"name" : "Umender",
+			"biography" : "Long ago, Umender cooperated with King Kastore, making Mecha Knights for his Outpost Project. But, when he heard about Urabrask's rebellion and the Forge's deeds, he escaped Deyja and fled to Bracada. Later, some time after Kastore's death, he moved to Jadame with his new Termotrons, which were newer models of Mecha Knights, but with magic engine and less powerfull. It is known that he makes engines from some kind of crystals. There are many gossips about the crystals' origins. Some say that he was once a favourite of Giantess Queen Tiatania and she taught him to make these magic fused crystals. Others say that he was using gremlins to mine these crystals and found a never-ending vein of magic crystals.",
+			"specialty" : 
+			{
+				"description" : "{Termotrons and Battle Termotrons}\r\n\r\nIncreases Speed of any Termotrons or Battle Termotrons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Termotrons",
+				"name" : "Termotrons"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/umender/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/umender/spec-large.png",
+			"large" : "ciberium/heroes/umender/portrait-large.png",
+			"small" : "ciberium/heroes/umender/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"slow"		
+        	],
+
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faAutomaton", "min" : 3, "max" : 5 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "faAutomaton"
+		}
+	}
+}

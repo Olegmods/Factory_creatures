@@ -1,0 +1,55 @@
+{
+	"factoryUn" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"mageGuild1" :     { "animation" : "tbfamage.def", "x" : 248, "y" : 114,  "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOFaMage_nagamap.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaMage_nagamap.bmp" },
+				"mageGuild2" :     { "animation" : "tbfamag2.def", "x" : 248, "y" : 96,  "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOFaMag2_nagamap.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaMag2_nagamap.bmp" },
+				"mageGuild3" :     { "animation" : "tbfamag3.def", "x" : 248, "y" : 80,  "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOFaMag3_nagamap.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaMag3_nagamap.bmp" },
+				"mageGuild4" :     { "animation" : "tbfamag4.def", "x" : 248, "y" : 63,  "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOFaMag4_nagamap.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaMag4_nagamap.bmp" },
+				"mageGuild5" :     { "animation" : "tbfamag5.def", "x" : 248, "y" : 26,  "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOFaMag5_nagamap.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaMag5_nagamap.bmp" },
+				"tavern" :         { "animation" : "tavern.def", "x" : 0, "y" : 0,  "z" : 19,  "border" : "ciberium/town-screen/buildings-border/TOELtvrn.bmp", "area" : "ciberium/town-screen/buildings-area/TZELtvrn.bmp" },
+				"fort" :           { "animation" : "fort.def", "x" : 0, "y" : 0,  "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELcstl.bmp", "area" : "ciberium/town-screen/buildings-area/TZELcstl.bmp" },
+				"citadel" :        { "animation" : "citadel.def", "x" : 0, "y" : 0,  "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELcas2.bmp", "area" : "ciberium/town-screen/buildings-area/TZELcas2.bmp" },
+				"castle" :         { "animation" : "castle.def", "x" : 0, "y" : 0,  "z" : 20, "border" : "ciberium/town-screen/buildings-border/TOELcas3.bmp", "area" : "ciberium/town-screen/buildings-area/TZELcas3.bmp" },
+				"villageHall" :    { "animation" : "villagehall.def", "x" : 0, "y" : 0,  "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELhall.bmp", "area" : "ciberium/town-screen/buildings-area/TZELhall.bmp" },
+				"townHall" :       { "animation" : "townhall.def", "x" : 0, "y" : 0,  "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELhal2.bmp", "area" : "ciberium/town-screen/buildings-area/TZELhal2.bmp" },
+				"cityHall" :       { "animation" : "cityhall.def", "x" : 0, "y" : 0,  "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELhal3.bmp", "area" : "ciberium/town-screen/buildings-area/TZELhal3.bmp" },
+				"capitol" :        { "animation" : "capitol.def", "x" : 0, "y" : 0,  "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELhal4.bmp", "area" : "ciberium/town-screen/buildings-area/TZELhal4.bmp" },
+				"marketplace" :    { "animation" : "market.def", "x" : 0, "y" : 0,  "z" : 19,  "border" : "ciberium/town-screen/buildings-border/TOELmark.bmp", "area" : "ciberium/town-screen/buildings-area/TZELmark.bmp" },
+				"resourceSilo" :   { "animation" : "marketsilo.def", "x" : 0, "y" : 0, "z" : 18,  "border" : "ciberium/town-screen/buildings-border/TOELsilo.bmp", "area" : "ciberium/town-screen/buildings-area/TZELsilo.bmp" },
+				"blacksmith" :     { "animation" : "blacksm.def", "x" : 0, "y" : 0, "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELblak.bmp", "area" : "ciberium/town-screen/buildings-area/TZELblak.bmp" },
+				"dwellingLvl7B":   { "animation" : "serpent.def", "x" : 0, "y" : 0,   "z" : 19, "border" : "ciberium/town-screen/buildings-border/TOELdw_7.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_7.bmp" },
+				"dwellingUpLvl7B": { "animation" : "serpentup.def", "x" : 0, "y" : 0,   "z" : 19, "border" : "ciberium/town-screen/buildings-border/TOELup_7.bmp", "area" : "ciberium/town-screen/buildings-area/TZELup_7.bmp" },
+				"horde1" :         { "animation" : "hobbithrd.def", "x" : 0, "y" : 0, "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELhrd1.bmp", "area" : "ciberium/town-screen/buildings-area/TZELhrd1.bmp", "hidden" : true },
+				"horde1Upgr" :     { "animation" : "hobbituphrd.def", "x" : 0, "y" : 0, "z" : 20,   "border" : "ciberium/town-screen/buildings-border/TOELhrd2.bmp", "area" : "ciberium/town-screen/buildings-area/TZELhrd2.bmp", "hidden" : true, "builds" : "horde1", },
+				"special1" :       { "animation" : "spec2.def", "x" : 520, "y" : 85, "z" : 25,  "border" : "ciberium/town-screen/buildings-border/TOELSpec2.bmp", "area" : "ciberium/town-screen/buildings-area/TZELSpec2.bmp" },
+				"special2" :       { "animation" : "pump.def", "x" : 0, "y" : 0, "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELext6.bmp", "area" : "ciberium/town-screen/buildings-area/TZELext6.bmp" },
+				"special3" :       { "animation" : "TBFaMrch.def", "x" : 0, "y" : 263, "z" : 22,  "border" : "ciberium/town-screen/buildings-border/TOFaMrch.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaMrch.bmp" },
+				"special4" :       { "animation" : "TBFaSpc2.def", "x" : 116, "y" : 13, "z" : 22,  "border" : "ciberium/town-screen/buildings-border/TOFaSpc2.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaSpc2.bmp" },
+				"grail" :          { "animation" : "TBFaholy.def", "x" : 577, "y" : 5, "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOFaholy.bmp", "area" : "ciberium/town-screen/buildings-area/TZFaholy.bmp" },
+				"dwellingLvl1" :   { "animation" : "hobbit.def", "x" : 0, "y" : 0, "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELdw_0.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_0.bmp" },
+				"dwellingLvl2" :   { "animation" : "fire.def", "x" : 0, "y" : 0, "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOELdw_1.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_1.bmp" },
+				"dwellingLvl2B" :   { "animation" : "tbfadw_4.def", "x" : 712, "y" : 236, "z" : 22,  "border" : "ciberium/town-screen/buildings-border/TOfadw_4.bmp", "area" : "ciberium/town-screen/buildings-area/TZfadw_4.bmp" },
+				"dwellingUpLvl2B" :   { "animation" : "tbfaup_4.def", "x" : 712, "y" : 236, "z" : 22,  "border" : "ciberium/town-screen/buildings-border/TOfaup_4.bmp", "area" : "ciberium/town-screen/buildings-area/TZfaup_4.bmp" },
+				"dwellingLvl3" :   { "animation" : "farm.def", "x" : 0, "y" : 0, "z" : 20, "border" : "ciberium/town-screen/buildings-border/TOELdw_2.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_2.bmp" },
+				"dwellingLvl4" :   { "animation" : "auto.def", "x" : 0, "y" : 0, "z" : 19, "border" : "ciberium/town-screen/buildings-border/TOELdw_3.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_3.bmp" },
+				"dwellingLvl4B" :   { "animation" : "tbfaautd.def", "x" : 371, "y" : 296, "z" : 22, "border" : "ciberium/town-screen/buildings-border/Tofaspc1d.bmp", "area" : "ciberium/town-screen/buildings-area/Tzfaspc1d.bmp" },
+				"dwellingUpLvl4B" :   { "animation" : "tbfaaut.def", "x" : 371, "y" : 296, "z" : 22, "border" : "ciberium/town-screen/buildings-border/Tofaspc1.bmp", "area" : "ciberium/town-screen/buildings-area/Tzfaspc1.bmp" },
+				"dwellingLvl5" :   { "animation" : "saklya.def", "x" : 0, "y" : 0, "z" : 20, "border" : "ciberium/town-screen/buildings-border/TOELdw_4.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_4.bmp" },
+				"dwellingLvl6" :   { "animation" : "saloon.def", "x" : 0, "y" : 0, "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELdw_5.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_5.bmp" },
+				"dwellingLvl7" :   { "animation" : "mecha.def", "x" : 0, "y" : 0, "z" : 19, "border" : "ciberium/town-screen/buildings-border/TOELdw_6.bmp", "area" : "ciberium/town-screen/buildings-area/TZELdw_6.bmp" },
+				"dwellingUpLvl1" : { "animation" : "hobbitup.def", "x" : 0, "y" : 0, "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELhrd2.bmp", "area" : "ciberium/town-screen/buildings-area/TZELhrd2.bmp" },
+				"dwellingUpLvl2" : { "animation" : "fireup.def", "x" : 0, "y" : 0, "z" : 21,  "border" : "ciberium/town-screen/buildings-border/TOELup_1.bmp", "area" : "ciberium/town-screen/buildings-area/TZELup_1.bmp" },
+				"dwellingUpLvl3" : { "animation" : "farmup.def", "x" : 0, "y" : 0, "z" : 20, "border" : "ciberium/town-screen/buildings-border/TOELup_2.bmp", "area" : "ciberium/town-screen/buildings-area/TZELup_2.bmp" },
+				"dwellingUpLvl4" : { "animation" : "autoup.def", "x" : 0, "y" : 0, "z" : 19, "border" : "ciberium/town-screen/buildings-border/TOELup_3.bmp", "area" : "ciberium/town-screen/buildings-area/TZELup_3.bmp" },
+				"dwellingUpLvl5" : { "animation" : "saklyaup.def", "x" : 0, "y" : 0, "z" : 20, "border" : "ciberium/town-screen/buildings-border/TOELup_4.bmp", "area" : "ciberium/town-screen/buildings-area/TZELup_4.bmp" },
+				"dwellingUpLvl6" : { "animation" : "saloonup.def", "x" : 0, "y" : 0, "z" : 20,  "border" : "ciberium/town-screen/buildings-border/TOELup_5.bmp", "area" : "ciberium/town-screen/buildings-area/TZELup_5.bmp" },
+				"dwellingUpLvl7" : { "animation" : "mechaup.def", "x" : 0, "y" : 0, "z" : 19, "border" : "ciberium/town-screen/buildings-border/TOELUp_6.bmp", "area" : "ciberium/town-screen/buildings-area/TZELUp_6.bmp" }
+			}
+		}
+	}
+}
+

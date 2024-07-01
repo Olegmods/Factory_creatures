@@ -1,0 +1,62 @@
+{
+	"celestine" : 
+	{
+		"class" : "artificer",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Celestine",
+			"biography" : "The AvLeean druid, who had lost his grove, traversed the world, imparting knowledge on anyone who sought it. He left the secrets of natural magic and his daughter Mirlanda in Tatalia, while in Eeofol, Celestine was born, inheriting another facet of his talent. Her father taught her how to tame the most violent beasts, offering them friendship, rather than the Tatalian beastmasters' trademark ruthless treatment.",
+			"specialty" : 
+			{
+				"description" : "{Armadillos and Bellwether Armadillos}\r\n\r\nIncreases Speed of any Armadillos or Bellwether Armadillos by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Armadillos",
+				"name" : "Armadillos"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/rengist/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/rengist/spec-large.png",
+			"large" : "ciberium/heroes/rengist/portrait-large.png",
+			"small" : "ciberium/heroes/rengist/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"landMine" : {
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.landMine",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
+
+

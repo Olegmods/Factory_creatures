@@ -1,0 +1,48 @@
+{
+	"judith" : 
+	{
+		"class" : "mercenary",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Judith",
+			"biography" : "Judith leads the top 10 of the most wanted rogues in Erathia, Bracada, AvLee, Tatalia, Deyja and ever Eeofol. Hiding from the officials, local militia and even demons, she fled to Jadame. Judith now serves as a mercenary for Von Frederich. There are even gossips that she is a sleeper agent.",
+			"specialty" :
+			{
+				"description" : "{Rogues and Bandits}\r\n\r\nIncreases Speed of any Rogues and Bandits by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Rogues",
+				"name" : "Rogues"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/singhel/rogue_spec32.png",
+			"specialtyLarge" : "ciberium/heroes/singhel/rogue_spec44.png",
+			"large" : "ciberium/heroes/singhel/bandi.png",
+			"small" : "ciberium/heroes/singhel/bandis.png"
+		},
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "rogue", "min" : 6, "max" : 8 },
+			{ "creature" : "rogue", "min" : 6, "max" : 8}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "rogue"
+		}
+	}
+}

@@ -1,0 +1,133 @@
+{
+	"factoryUn" : {
+		"alignment" : "neutral",
+		"creatureBackground" : { "120px" : "ciberium/creature-bg-120px", "130px" : "ciberium/creature-bg-130px" },
+		"name" : "Factory",
+		"nativeTerrain" : "wasteland",
+		"boat" : "boatCastle",
+		"town" :
+		{
+			"musicTheme" : "music/ciberium/Factory",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "ciberium/town-screen/background",
+			"guildWindow": "ciberium/town-screen/mage-guild",
+			"hallBackground": "BackgHallNewest.BMP",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo", "special3" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1" ], ["special4"]],
+				[ [ "special2" ], [ "dwellingLvl2B", "dwellingUpLvl2B" ], [ "horde1", "horde1Upgr" ], [ "dwellingLvl4B", "dwellingUpLvl4B" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7B", "dwellingUpLvl7B" ],[ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				[ "halfling", "faHalful" ],
+				[ "faMechanic", "faEngineer", "rogue", "bandit" ],
+				[ "faArma", "faBellArma" ],
+				[ "faAutomaton", "faBattleAutomaton", "faSpider", "faSentinelSpider" ],
+				[ "faWurm", "faOgloi" ],
+				[ "faGunslinger", "faBounty" ],
+				[ "faDreadnought", "faJuggernaut", "faCouatl", "faRedCouatl"]
+			],
+			"horde" : [ 0, -1 ],
+			"moatAbility" : "rampartMoat",
+			"mageGuild" : 5,
+			"primaryResource" : "mercury",
+			"warMachine" : "ammoCart",
+			"buildingsIcons" : "ciberium/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "ciberium/icons/hall-small.bmp",
+						"large" : "ciberium/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "ciberium/icons/hall-builded-small.bmp",
+						"large" : "ciberium/icons/hall-builded-big.bmp"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "ciberium/icons/fort-small.bmp",
+						"large" : "ciberium/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "ciberium/icons/fort-builded-small.bmp",
+						"large" : "ciberium/icons/fort-builded-big.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "ciberium/adventure-map/facapitol.def" },
+					"castle" : { "animation" : "ciberium/adventure-map/fatown.def" },
+					"citadel" : { "animation" : "ciberium/adventure-map/facitadel.def" },
+					"fort" : { "animation"    : "ciberium/adventure-map/fafort.def" },
+					"village" : { "animation" : "ciberium/adventure-map/favillage.def" }
+				}
+			},
+			"names" :
+			[
+				"Utopia",
+				"Volta",
+				"Corakstone",
+				"Burton",
+				"New Frederichville",
+				"Fort-Urabras",
+				"Brassville",
+				"Gearburg",
+				"Dustforge",
+				"Rustorado",
+				"Gearstock",
+				"Steamspur",
+				"Cogburg",
+				"Arcadia",
+				"Kerger",
+				"Ridder",
+				"Ardor",
+				"Aurichalcum",
+				"Darentor",
+				"Endurance",
+				"Fort Rotwang",
+				"Mount Copper",
+				"New Dolere",
+				"Prospero",
+				"Salda",
+				"Vulcan"
+			],
+			"tavern" :
+			{
+				"knight"       : 5,
+				"cleric"       : 5,
+				"ranger"       : 5,
+				"druid"        : 5,
+				"alchemist"    : 5,
+				"wizard"       : 5,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 5,
+				"overlord"     : 5,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 5,
+				"planeswalker" : 5,
+				"elementalist" : 5,
+				"artificer" : 6,
+				"mercenary" : 6
+			}
+		}
+	}
+}

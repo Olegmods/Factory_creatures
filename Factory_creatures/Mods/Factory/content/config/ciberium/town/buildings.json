@@ -1,0 +1,558 @@
+{
+	"factoryUn" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" : 
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"id" : 4,
+					"upgrades" : "mageGuild4"
+				},
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Resource Silo provides you with an additional +1 mercury each day.",
+					"name" : "Resource Silo",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				"horde1" :
+				{
+					"description" : "Terrace increases weekly production of Halflings and Halfling Grenadiers by 10 per week.",
+					"name" : "Terrace",
+					"cost" : {
+						"gold" : 1000
+					},
+					"id" : 18,
+					"upgrades" : "dwellingLvl1"
+				},
+				"horde1Upgr" :
+				{
+					"description" : "Terrace increases weekly production of Halflings and Halfling Grenadiers by 10 per week.",
+					"name" : "Terrace",
+					"cost" : {
+						"gold" : 1000
+					},
+					"id" : 19,
+					"upgrades" : "dwellingUpLvl1",
+					"requires" : [ "horde1" ],
+					"mode" : "auto"
+				},
+				"dwellingLvl7B" :
+				{
+					"name" : "Serpentarium",
+					"description" : "Serpentarium allows you to recruit Rainbow Couatls.",
+					"cost" : {
+						"wood" : 10,
+						"crystal" : 10,
+						"ore" : 10,
+						"gold" : 10000
+					},
+					"id" : 50, 
+					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "mageGuild1" ]]
+				},
+				"dwellingUpLvl7B" :
+				{
+					"name" : "Upg. Serpentarium",
+					"description" : "Upg. Serpentarium allows you to recruit Crimson Couatls.",
+					"cost" : {
+						"wood" : 10,
+						"crystal" : 20,
+						"ore" : 10,
+						"gold" : 15000
+					},
+					"id" : 57, 
+					"requires" : [ "mageGuild2" ]
+					"upgrades" : "dwellingLvl7B"
+				},
+				"special1" :
+				{
+					"description" : "The Magical Crystal provides additional spells for your Mage Guild.",
+					"name" : "Magical Crystal",
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 5,
+						"ore" : 5,
+						"sulfur" : 5,
+						"crystal" : 5,
+						"gems" : 5,
+						"gold" : 1500
+					},
+					"requires" :  [ "allOf", [ "mageGuild1" ]],
+                                        "type" : "library",
+					"id" : 17
+				},
+				"special2" :
+				{
+					"description" : "Oil Pump earns your kingdom 500 gold per day.",
+					"name" : "Oil Pump",
+					"cost" : {
+						"mercury" : 5,
+						"gold" : 1000
+					},
+					"requires" :  [ "allOf", [ "resourceSilo" ], [ "mageGuild1" ] ],
+                                         "produce": { "gold": 500 },
+					"id" : 21
+				},
+				"special3" : 
+				{
+					"description" : "The Storage provides you with an additional +1 crystal each day.",
+					"name" : "Storage",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+                    		"requires" : [ "resourceSilo" ],
+                    		"produce": { "crystal": 1 }, 
+					"id" : 22
+				},	
+				"special4" : 
+				{
+					"description" : "The Generator allows to recruit creatures from your external dwellings.",
+					"name" : "Generator",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+				"type" : "portalOfSummoning",
+				"id" : 23
+				},
+				"grail" :
+				{
+					"description" : "Lightning Rod increases weekly creature generation by 50 percent, adds 5000 gold per day and strikes all enemy stacks with lightning at the beginning of every battle the player participates in, anywhere on the map.",
+					"name" : "Lightning Rod",
+					"id" : 26,
+					"bonuses" : [
+					{
+						"type" : "OPENING_BATTLE_SPELL",
+						"val" : 3,
+						"subtype" : "spell.teslaLightning",
+						"propagator" : "PLAYER_PROPAGATOR",
+					}],
+					"mode" : "grail",
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "Thatched Hut allows to recruit Halflings.",
+					"name" : "Thatched Hut",
+					"cost" : {
+						"gold" : 400,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "Foundry allows to recruit Mechanics.",
+					"name" : "Foundry",
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"requires" : [ "allOf", [ "fort" ] ],
+					"id" : 31
+				},
+				"dwellingLvl2B" :
+				{
+					"description" : "Rogue Cavern allows to recruit Rogues.",
+					"name" : "Rogue Cavern",
+					"cost" : {
+						"gold" : 1500,
+						"ore" : 10
+					},
+					"requires" : [ "allOf", [ "fort" ] ],
+					"id" : 45
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "Wasteland Farm allows to recruit Armadillos.",
+					"name" : "Wasteland Farm",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"requires" : [ "allOf", [ "fort" ], [ "dwellingLvl1" ] ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "Termotron Factory allows to recruit Termotrons.",
+					"name" : "Termotron Factory",
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"mercury" : 3,
+						"wood" : 5,
+						"crystal" : 3,
+						"gems" : 3,
+						"sulfur" : 3
+						},
+					"requires" : [ "allOf",  [ "fort" ], [ "blacksmith" ], [ "anyOf", ["dwellingLvl2"], ["dwellingLvl2B"] ], [ "noneOf", ["dwellingLvl4B"] ] ],
+					"id" : 33
+				},
+				"dwellingLvl4B" :
+				{
+					"description" : "Manufactory allows to recruit Automatons.",
+					"name" : "Manufactory",
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 10,
+						"wood" : 5
+						},
+					"requires" : [ "allOf",  [ "fort" ], [ "blacksmith" ], [ "anyOf", ["dwellingLvl2"], ["dwellingLvl2B"] ], [ "noneOf", ["dwellingLvl4"] ] ],
+					"id" : 47
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "Saklya allows to recruit Sandworms.",
+					"name" : "Saklya",
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"wood" : 5,
+						"gems" : 2,
+						"crystal" : 2
+					},
+					"requires" : [ "allOf", [ "fort" ], [ "dwellingLvl1" ], [ "dwellingLvl3" ] ],
+					"id" : 34
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "Saloon allows to recruit Gunslingers.",
+					"name" : "Saloon",
+					"cost" : {
+						"gold" : 4000,
+						"ore" : 5,
+						"wood" : 10,
+						"sulfur" : 5,
+						"mercury" : 5
+					},
+					"requires" : [ "allOf", [ "fort" ], [ "blacksmith" ], [ "anyOf", ["dwellingLvl4"], ["dwellingLvl4B"] ] ],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "Mechaworks allows to recruit Steam Dreadnoughts.",
+					"name" : "Mechaworks",
+					"cost" : {
+						"gold" : 17500,
+						"ore" : 20,
+						"mercury" : 20
+					},
+					"requires" : [ "allOf", [ "dwellingLvl6" ], [ "blacksmith" ], [ "fort" ] ],
+					"id" : 36
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "Upg. Thatched Hut allows to recruit Halfling Grenadiers.",
+					"name" : "Upg. Thatched Hut",
+					"cost" : {
+						"gold" : 1000,
+						"mercury" : 5,
+						"sulfur" : 5
+					},
+					"id" : 37,
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "Upg. Foundry allow to recruit Engineers.",
+					"name" : "Upg. Foundry",
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"id" : 38,
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl2B" :
+				{
+					"description" : "Upg. Rogue Cavern allow to recruit Bandits.",
+					"name" : "Upg. Rogue Cavern",
+					"cost" : {
+						"gold" : 1500,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"id" : 52,
+					"upgrades" : "dwellingLvl2B"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "Upg. Wasteland Farm allows to recruit Bellwether Armadillos.",
+					"name" : "Upg. Wasteland Farm",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"id" : 39,
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "Upg. Termotron Factory allows to recruit Battle Termotrons.",
+					"name" : "Upg. Termotron Factory",
+					"cost" : {
+						"mercury" : 5,
+						"ore" : 5,
+						"wood" : 5,
+						"gold" : 1500,
+						"crystal" : 5
+					},
+					"id" : 40,
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl4B" :
+				{
+					"description" : "Upg. Manufactory allows to recruit Sentinel Automatons.",
+					"name" : "Upg. Manufactory",
+					"cost" : {
+						"mercury" : 5,
+						"ore" : 10,
+						"gold" : 2000
+					},
+					"id" : 54,
+					"upgrades" : "dwellingLvl4B"
+				},
+				"dwellingUpLvl5" :
+				{
+					"description" : "Upg. Saklya allows to recruit Olgoi-Khorkhois.",
+					"name" : "Upg. Saklya",
+					"cost" : {
+						"gems" : 5,
+						"gold" : 2000
+					},
+					"id" : 41,
+					"requires" : [ "dwellingUpLvl3" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+					"description" : "Upg. Saloon allows to recruit Bounty Hunters.",
+					"name" : "Upg. Saloon",
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 10,
+						"mercury" : 5,
+						"sulfur" : 5
+					},
+					"id" : 42,
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "Upg. Mechaworks allows to recruit Steam Juggernauts.",
+					"name" : "Upg. Mechaworks",
+					"cost" : {
+						"ore" : 10,
+						"gold" : 17500,
+						"mercury" : 20
+					},
+					"id" : 43,
+					"upgrades" : "dwellingLvl7"
+				}
+			}
+		}
+	}
+}
+

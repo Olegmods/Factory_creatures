@@ -1,0 +1,53 @@
+{
+	"todd" : 
+	{
+		"class" : "artificer",
+		"texts" :
+		{
+			"name" : "Todd",
+			"biography" : "Few Bracada scientists have actually seen, let alone handled, a hammer or a furnace. Todd, however, had to learn how to use them, unable to convey his esoteric ideas to blacksmiths and coppersmiths. There was also a scarcity of instruments and materials vital to his research in Bracada; Todd journeyed halfway around the world in search of them before finding what he sought in Burton.",
+			"specialty" : 
+			{
+				"description" : "{Automatons and Sentinel Automatons}\r\n\r\nIncreases Speed of any Automatons or Sentinel Automatons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Automatons",
+				"name" : "Automatons"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/kastore/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/kastore/spec-large.png",
+			"large" : "ciberium/heroes/kastore/portrait-large.png",
+			"small" : "ciberium/heroes/kastore/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"shield"		
+        	],
+
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faSpider", "min" : 3, "max" : 5 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "faSpider"
+		}
+	}
+}

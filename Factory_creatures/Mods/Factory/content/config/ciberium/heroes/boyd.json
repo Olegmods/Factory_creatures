@@ -1,0 +1,63 @@
+{
+	"boyd" : 
+	{
+		"class" : "mercenary",
+		"special" : true,
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Boyd",
+			"biography" : "All scary stories feature a horseman who had been hanged, stabbed or even beheaded and now rides by night, intending to exact revenge on his killers. Nonsense, a necromancer would say, a dead man risen by himself cannot have memory or will. It may well be so, but then Boyd has scores to settle not only with the traitor who slayed him, but also with the one who denied him rest in peace.",
+			"specialty" :
+			{
+				"description" : "{Jolly Boyder}\r\n\r\nYour Factory troops always have positive morale.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/sunni/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/sunni/spec-large.png",
+			"large" : "ciberium/heroes/sunni/portrait-large.png",
+			"small" : "ciberium/heroes/sunni/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "skeleton", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+                "morale" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" :
+				[
+					{
+						"type": "FACTION_LIMITER",
+						"parameters" : ["factoryUn"]
+					},
+					"noneOf",
+    					"NON_LIVING"
+				]
+				}	
+			}
+		}
+	}
+}

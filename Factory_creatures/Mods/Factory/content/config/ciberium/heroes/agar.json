@@ -1,0 +1,48 @@
+{
+	"agarfa" : 
+	{
+		"class" : "artificer",
+		"texts" :
+		{
+			"name" : "Agar",
+			"biography" : "Many thought that the warlock Agar was a madman, and then a dead man. While the latter has been proven incorrect, there is still no unanimity in Enroth's scientific community on the former. Indeed, Agar's creations are undeniably viable and functional - but could a scientist in his right mind think of instilling such nasty inclinations and proclivities in a living being?",
+			"specialty" : 
+			{
+				"description" : "{Sandworms and Ogloi-Khorkois}\r\n\r\nIncreases Speed of any Sandworms or Olgoi-Khorkhois by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Sandworms",
+				"name" : "Sandworms"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/resurrecta/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/resurrecta/spec-large.png",
+			"large" : "ciberium/heroes/resurrecta/portrait-large.png",
+			"small" : "ciberium/heroes/resurrecta/portrait-small.png"
+		},
+		"spellbook" :
+		[
+			"viewEarth"		
+        	],
+
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "faWurm"
+		}
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"mercenary" : 
+	{
+		"name" : "Mercenary",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "ciberium/battleHeroNew",
+				"male"   : "ciberium/battleHero"
+			}
+		},	
+		"mapObject" : { "templates" : { "default" : { "animation" : "ciberium/battleHeroMap" }}},
+		"mapObject" : {
+			"templates" : { 
+				"female" : 
+				{ 
+					"animation" : "ciberium/battleHeroNMap",
+					"editorAnimation": "ciberium/battleHeroNMap_"					
+				}, 
+				"male" : 
+				{ 
+					"animation" : "ciberium/battleHeroMap",
+					"editorAnimation": "ciberium/battleHeroMap_"
+				} 
+			} 
+		},
+		"commander" : "faWurm",
+		"faction" : "factoryUn",
+		"affinity" : "might",
+		"primarySkills" :
+		{
+			"attack"     : 3,
+			"defence"    : 1,
+			"spellpower" : 1,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 35,
+			"defence"    : 35,
+			"spellpower" : 15,
+			"knowledge"  : 15
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 30,
+			"spellpower" : 20,
+			"knowledge"  : 20
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 7,
+			"archery"      : 7,
+			"logistics"    : 7,
+			"scouting"     : 5,
+			"diplomacy"    : 7,
+			"navigation"   : 4,
+			"leadership"   : 5,
+			"wisdom"       : 3,
+			"mysticism"    : 1,
+			"luck"         : 5,
+			"ballistics"   : 6,
+			"eagleEye"     : 2,
+			"necromancy"   : 0,
+			"estates"      : 3,
+			"fireMagic"    : 3,
+			"airMagic"     : 3,
+			"waterMagic"   : 0,
+			"earthMagic"   : 3,
+			"scholar"      : 1,
+			"tactics"      : 8,
+			"artillery"    : 6,
+			"learning"     : 4,
+			"offence"      : 6,
+			"armorer"      : 5,
+			"intelligence" : 2,
+			"sorcery"      : 2,
+			"resistance"   : 4,
+			"firstAid"     : 3
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 4,
+			"necropolis" : 4,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 4,
+			"factoryUn"   : 4                  
+		}
+	}
+}

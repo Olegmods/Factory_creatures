@@ -1,0 +1,44 @@
+{
+	"tancred" : 
+	{
+		"class" : "mercenary",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Tancred",
+			"biography" : "Back in his alchemist days, Tancred discovered an ancient recipe for a concoction that exploded without the use of magic. To his great dismay, the crucial component - saltpeter - was nearly entirely absent from Antagarich. Only in Jadame did Tancred discover vast caves full of this rare element and perfect the design of the arquebus that hurls tiny bullets with this awesome power.",
+			"specialty" :
+			{
+				"description" : "{Gunslingers and Bounty Hunters}\r\n\r\nIncreases the speed of Gunslingers or Bounty Hunters by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Gunslingers",
+				"name" : "Gunslingers"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/julian/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/julian/spec-large.png",
+			"large" : "ciberium/heroes/julian/portrait-large.png",
+			"small" : "ciberium/heroes/julian/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "archery"
+			
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "faGunslinger"
+		}
+	}
+}

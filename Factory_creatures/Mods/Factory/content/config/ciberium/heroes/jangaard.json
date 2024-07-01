@@ -1,0 +1,58 @@
+{
+	"jangaard" : 
+	{
+		"class" : "mercenary",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Jangaard",
+			"biography" : "Formerly a Regnan pirate, a favourite gladiator of Winston Boragus and an Erathian militiamen, Jangaard became the most successful mercenary swordsman in Jadame.",
+			"specialty" :
+			{
+				"description" : "{Scouting}\r\n\r\nIncreases Scouting radius by 1 for every 6 levels.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/sunni/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/sunni/spec-large.png",
+			"large" : "ciberium/heroes/sunni/portrait-large.png",
+			"small" : "ciberium/heroes/sunni/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "rogue", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+                "sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+                    "updater" : {
+                        "parameters" : [6],
+                        "type" : "GROWS_WITH_LEVEL"
+                    }
+				}	
+			}
+		}
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"victoria" : 
+	{
+		"class" : "artificer",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Victoria",
+			"biography" : "Best spellcasters are actually capable of resurrecting dead, but can a soldier who stepped on a mine count on it? Dealing with such an insidious weapon, Victoria did not get the respect of her colleagues, and yet she devoted her life to improving it. The inventor found another use for her knowledge after she met Floribert - making mechanical limbs for crippled soldiers.",
+			"specialty" : 
+			{
+				"description" : "{Land Mine}\r\n\r\nCasts Land Mine with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Land Mine",
+				"name" : "Land Mine"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/tarkin/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/tarkin/spec-large.png",
+			"large" : "ciberium/heroes/tarkin/portrait-large.png",
+			"small" : "ciberium/heroes/tarkin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"landMine"
+		],
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"landMine" : {
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.landMine",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
+
+

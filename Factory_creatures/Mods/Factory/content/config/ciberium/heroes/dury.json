@@ -1,0 +1,57 @@
+{
+	"dury" : 
+	{
+		"class" : "mercenary",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Dury",
+			"biography" : "Dury spent the longest time in search for a magician who would not just promise to, but actually eliminate the repercussions of wounds she had sustained in dozens of clashes. One excellent blacksmith was able to forge a siertal plate to replace the part of her skull caved in by a wyvern's tail, and the mercenary now values fine armor far more than any magical malarkey.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/meltes/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/meltes/spec-large.png",
+			"large" : "ciberium/heroes/meltes/portrait-large.png",
+			"small" : "ciberium/heroes/meltes/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

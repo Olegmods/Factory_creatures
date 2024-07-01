@@ -1,0 +1,92 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"inventorForge" : 
+			{
+				"name" : "Machinery Forge",
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "ciberium/adventure-map/crbank.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : ["VVV", "VBB", "ABB"],
+///						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "wasteland"] 
+					},
+				},
+				"sounds": {
+					"ambient": ["LOOPARTIF.wav"]
+				},
+				"rmg" : {
+					"value"		: 4500,
+					"rarity"	: 80
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type" : "faAutomaton" },
+							{ "amount": 5, "type" : "faAutomaton" },
+							{ "amount": 5, "type" : "faAutomaton", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "faAutomaton" },
+							{ "amount": 5, "type" : "faAutomaton" }
+						],
+						"combat_value": 4500,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 1, "type": "faDreadnought" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "faAutomaton" },
+							{ "amount": 10, "type" : "faAutomaton" },
+							{ "amount": 10, "type" : "faBattleAutomaton" },
+							{ "amount": 10, "type" : "faAutomaton" },
+							{ "amount": 10, "type" : "faAutomaton" }
+						],
+						"combat_value": 4500,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 2, "type": "faDreadnought" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 15, "type" : "faAutomaton" },
+							{ "amount": 15, "type" : "faBattleAutomaton" },
+							{ "amount": 15, "type" : "faAutomaton" },
+							{ "amount": 15, "type" : "faBattleAutomaton" },
+							{ "amount": 15, "type" : "faAutomaton" }
+						],
+						"combat_value": 4500,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 3, "type": "faDreadnought" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type" : "faAutomaton" },
+							{ "amount": 20, "type" : "faBattleAutomaton" },
+							{ "amount": 5, "type" : "faBounty" },
+							{ "amount": 20, "type" : "faBattleAutomaton" },
+							{ "amount": 20, "type" : "faAutomaton" }
+						],
+						"combat_value": 5500,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 4, "type": "faDreadnought" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

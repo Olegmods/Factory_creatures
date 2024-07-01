@@ -1,0 +1,64 @@
+{
+	"wrathmontfactory" : 
+	{
+		"class" : "artificer",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Wrathmont",
+			"biography" : "Wrathmont's volatile temper got him into countless problems in his life, most notably during the carve-up of Archibald Ironfist's estate, when former colleagues banded together against the warlock, weary of his tantrums. Barely escaping them, Wrathmont fled to Enroth. He spent years searching for and studying old stone tablets, learning to control his fury and stoke it in others instead.",
+			"specialty" : 
+			{
+				"description" : "{Frenzy}\r\n\r\nCasts Frenzy with Attack bonus increased by 3% for ever n hero levels, where n is the level of the targeted creature.",
+				"tooltip" : "Spell Bonus: Frenzy",
+				"name" : "Frenzy"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "ciberium/heroes/wrathmont/spec-small.png",
+			"specialtyLarge" : "ciberium/heroes/wrathmont/spec-large.png",
+			"large" : "ciberium/heroes/wrathmont/portrait-large.png",
+			"small" : "ciberium/heroes/wrathmont/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"frenzy"
+		],
+		"army" :
+		[
+			{ "creature" : "halfling", "min" : 15, "max" : 25 },
+			{ "creature" : "faMechanic", "min" : 6, "max" : 8 },
+			{ "creature" : "faArma", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"bolt" : {
+					"val" : 3,
+					"subtype" : "spell.frenzy",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"propagationUpdater" : "TIMES_HERO_LEVEL",
+					"updater" : "TIMES_STACK_LEVEL",
+					"propagator": "HERO"
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,178 @@
+{
+	"core:halfling" :
+	{
+		"faction": "factoryUn",
+
+	},
+	"factory_creatures:faHalful":
+	{
+		"faction" : "factoryUn",
+		"graphics" :
+		{
+			"animation" : "chalfb.DEF",
+			"map" : "avwhbom.def",
+			"mapMask" : [ "VVV", "VAV"]
+			"iconSmall" : "halftestups.bmp",
+			"iconLarge" : "halftestup.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				"flight" : 1
+			},
+			"missile" :
+			{
+				"projectile": "PHALF.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			}
+		}
+	},
+	"third upgrades:bandit":
+	{
+		"faction": "factoryUn",
+		"graphics" :
+		{
+			"animation" : "bandit/band.def",
+			"map" : "bandit/bands.def",
+			"iconSmall" : "bandit/bands.bmp",
+			"iconLarge" : "ciberium/iconsBig/roguupfact.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 40,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "ROGUATTK.wav",
+			"defend": "ROGUDFND.wav",
+			"killed": "ROGUKILL.wav",
+			"move": "ROGUMOVE.wav",
+			"wince": "ROGUWNCE.wav"
+		}
+	},
+	"core:rogue" :
+	{
+		"faction": "factoryUn"
+		"graphics" :
+		{
+			"animation": "CROGUE.DEF"
+			"map" : "AVWrog.def",
+			"iconSmall" : "Rogu.bmp",
+			"iconLarge" : "ciberium/iconsBig/rogufact.bmp",
+		}
+	},
+	"factory_creatures:faBellArma":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faArma":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faMechanic":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faEngineer":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faSpider":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faSentinelSpider":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faSheriff":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faAutomaton":
+	{
+		"faction" : "factoryUn",
+		"graphics" :
+		{
+			"animation" : "autof.def",
+			"map" : "amap.def",
+			"iconSmall" : "autos.bmp",
+			"iconLarge" : "autofact.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10.00,
+				"attack" : 1,
+				"flight" : 1
+			}
+		}
+	},
+	"factory_creatures:faBattleAutomaton":
+	{
+		"faction" : "factoryUn",
+		"graphics" :
+		{
+			"animation" : "autoupf.def",
+			"map" : "aumap.def",
+			"iconSmall" : "autoups.bmp",
+			"iconLarge" : "autoupfact.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10.00,
+				"attack" : 1,
+				"flight" : 1
+			}
+		}
+	},
+	"factory_creatures:faGunslinger":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faBounty":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faOgloi":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faWurm":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faCouatl":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faRedCouatl":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faDreadnought":
+	{
+		"faction" : "factoryUn"
+	},
+	"factory_creatures:faJuggernaut":
+	{
+		"faction" : "factoryUn"
+	},
+}

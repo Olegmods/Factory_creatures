@@ -1,0 +1,121 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"faFarm" : {
+				"name" : "Wasteland Farm",
+				"creatures" : [[ "faArma" ]],
+				"sounds" : {
+					"ambient" : ["LOOPGARD.wav"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "ciberium/adventure-map/fabron.def",
+						"mask" : [ "VVVV", "VBBA" ]
+					}
+				}
+			},
+			"thatchedHut" : {
+				"sounds" : {
+					"ambient" : ["LOOPHALF.wav"]
+				}
+			},
+			"faAutoFactory" : {
+				"name" : "Termotron Factory",
+				"guards" : true,
+				"creatures" : [[ "faAutomaton" ]],
+				"sounds" : {
+					"ambient" : ["LOOPFACT.wav"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "ciberium/adventure-map/avgmecha.def",
+						"mask" : [ "VVV", "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"faSpiderFactory" : {
+				"name" : "Manufactory",
+				"guards" : true,
+				"creatures" : [[ "faSpider" ]],
+				"sounds" : {
+					"ambient" : ["LOOPFACT.wav"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "ciberium/avgdread.def",
+						"mask" : [ "VVV", "VVV", "VBA"]
+					}
+				}
+			},
+			"faFoundry" : {
+				"name" : "Foundry",
+				"creatures" : [[ "faMechanic" ]],
+				"sounds" : {
+					"ambient" : ["LOOPFACT.wav"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "firedw.def",
+						"mask" : [ "VVV", "VVV", "VAB"]
+					}
+				}
+			},
+			"faSaklya" : {
+				"name" : "Saklya",
+				"guards" : true,
+				"creatures" : [[ "faWurm" ]],
+				"sounds" : {
+					"ambient" : ["LOOPBEHE.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/faworm.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"faSaloon" : {
+				"name" : "Saloon",
+				"creatures" : [[ "faGunslinger" ]],
+				"sounds" : {
+					"ambient" : ["LOOPGUNS.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/faguns.def",
+						"mask" : [ "VVVV", "VVVV", "VVBB", "VVBA" ]
+					}
+				}
+			},
+			"faSerpentarium" : {
+				"name" : "Serpentarium",
+				"creatures" : [[ "faCouatl" ]],
+				"sounds" : {
+					"ambient" : ["LOOPCOTL.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/facouat.def",
+						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
+					}
+				}
+			},
+			"faMechaworks" : {
+				"name" : "Mechaworks",
+				"creatures" : [[ "faDreadnought" ]],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : ["LOOPFACT.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "ciberium/adventure-map/AVGauto.def",
+						"mask" : [ "VVV", "VVV", "VBB", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}
