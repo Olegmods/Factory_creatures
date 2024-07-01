@@ -1,0 +1,83 @@
+{
+	"faMechanic":
+	{
+		"name" :
+		{
+			"plural" : "Mechanics",
+			"singular" : "Mechanic"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 16
+		},
+		"faction" : "neutral",
+//                       for now
+		"aiValue" : 165,
+///		"special" : true,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"damage" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 165,
+		"graphics" :
+		{
+			"animation" : "CMECHAN.DEF",
+			"map" : "avwmech.def",
+			"mapMask" : [ "VVV", "VAV"]
+			"iconSmall" : "mechanics.bmp",
+			"iconLarge" : "mechanic.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1
+			}
+		},
+		"upgrades" : [ "faEngineer" ],
+		"growth" : 8,
+		"hitPoints" : 14,
+		"level" : 2,
+		"sound" :
+		{
+			"attack" : "MECHATTK.wav",
+			"defend" : "MECHDFND.wav",
+			"killed" : "MECHKILL.wav",
+			"move"   : "MECHMOVE.wav",
+			"wince"  : "MECHWNCE.wav"
+		},
+		"abilities" :
+		{
+			"breath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"repair" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.hotaRepair",
+				"val" : 2
+			},
+			"castLength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.hotaRepair",
+				"val" : 10
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}	
+		}
+		"speed" : 5
+	}
+}

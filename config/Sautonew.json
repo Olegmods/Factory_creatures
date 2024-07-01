@@ -1,0 +1,78 @@
+{
+	"faSentinelSpider":
+	{
+		"advMapAmount" :
+		{
+
+			"max" : 16,
+			"min" : 10
+		},
+			"name" :
+		{
+			"plural" : "Sentinel Automatons",
+			"singular" : "Sentinel Automaton"
+		},
+		"faction" : "neutral",
+		"aiValue" : 630,
+		"doubleWide" : true,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			"max" : 9,
+			"min" : 9
+		},
+		"defense" : 10,
+		"fightValue" : 627,
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "chauto.def",
+			"map" : "avwauth.def",
+			"mapMask" : [ "VVV", "VAV"]
+			"iconSmall" : "sentinelautomatons.bmp",
+			"iconLarge" : "sentinelautomaton.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10.00,
+				"attack" : 1
+			}
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+		"level" : 4,
+		"sound" :
+		{
+			"attack" : "AUTOATTK.wav",
+			"defend" : "AUTODFND.wav",
+			"killed" : "AUTOKILL.wav",
+			"move" : "AUTOMOVE.wav",
+			"wince" : "AUTOWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 30
+			},
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"noReta" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,81 @@
+{
+	"faJuggernaut":
+	{
+		"name" :
+		{
+			"plural" : "Steam Juggernauts",
+			"singular" : "Steam Juggernaut"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"faction" : "neutral",
+//                       for now
+		"aiValue" : 8829,
+		"special" : false,
+		"attack" : 23,
+		"cost" :
+		{
+			"gold" : 4000,
+			"mercury" : 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 40
+		},
+		"defense" : 23,
+		"fightValue" : 8771,
+		"graphics" :
+		{
+			"animation" : "juggernew.def",
+			"map" : "map.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "juggs.bmp",
+			"iconLarge" : "jugg.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				 
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "DREDSHOT.wav",
+			"defend" : "DREDDFND.wav",
+			"killed" : "DREDKILL.wav",
+			"move"   : "DREDMOVE.wav",
+			"wince"  : "DREDWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"nonLiving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"wideBreath" :
+			{
+				"type" : "WIDE_BREATH"
+			},
+			"twohexattack" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"king" : 
+			{ 
+				"type" : "KING",
+				"val" : 2
+			}
+		}
+	}
+}

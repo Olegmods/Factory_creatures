@@ -1,0 +1,95 @@
+{
+	"core:halfling":
+	{
+		"upgrades" : [ "faHalful" ],
+		"horde" : 10
+	},
+	"faHalful":
+	{
+		"name" :
+		{
+			"plural" : "Halfling Grenadiers",
+			"singular" : "Halfling Grenadier"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"faction" : "neutral",
+//                       for now
+		"aiValue" : 125,
+		"shots" : 24,
+///		"special" : false,
+		"attack" : 5,
+		"horde" : 10,
+		"cost" :
+		{
+			"gold" : 65
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 2
+		},
+		"defense" : 2,
+		"fightValue" : 130,
+		"graphics" :
+		{
+			"animation" : "Chalful.DEF",
+			"map" : "halfs.def",
+			"iconSmall" : "halfuls.bmp",
+			"iconLarge" : "halfup.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				 
+			},
+			"missile" :
+			{
+				"projectile": "PBOMB.DEF",
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 8
+			}
+		},
+		"doubleWide" : false,
+		"growth" : 16,
+		"abilities":
+		{
+			"fireball" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.fireball"
+			},
+			"canShoot" : { "type" : "SHOOTER" },
+			"lucky" :
+			{
+				"type" : "SELF_LUCK"
+			}
+		},
+		"hitPoints" : 4,
+		"level" : 1,
+		"sound" :
+		{
+			"attack": "HALFATTK.wav",
+			"defend": "HALFDFND.wav",
+			"killed": "HALFKILL.wav",
+			"move": "HALFMOVE.wav",
+			"shoot": "HALGSHOT.wav",
+			"wince": "HALFWNCE.wav"
+		},
+		"speed" : 7
+	}
+}
