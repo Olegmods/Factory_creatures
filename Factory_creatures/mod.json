@@ -2,7 +2,7 @@
 	"author" : "Olegmods.INC",
 
 
-	"contact" : "https://vk.com/olegkomarant",
+	"contact" : "https://github.com/Olegmods/",
 	"description" : "Base for my unofficial Factory mod with HotA creatures. Adds Factory creatures as neutrals. Conflicts with Factory demo (due to both upgrading Halflings), Refuge town and Antagarich Burning (not Forge 2k) (due to all upgrading Rogues).",
 	"licenseName" : "Creative Commons Attribution-NonCommercial-ShareAlike",
 	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
