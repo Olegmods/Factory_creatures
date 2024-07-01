@@ -1,0 +1,64 @@
+	{
+	"author" : "Olegmods.INC",
+
+
+	"contact" : "https://vk.com/olegkomarant",
+	"description" : "Base for my unofficial Factory mod with HotA creatures. Adds Factory creatures as neutrals. Conflicts with Factory demo (due to both upgrading Halflings), Refuge town and Antagarich Burning (not Forge 2k) (due to all upgrading Rogues).",
+	"licenseName" : "Creative Commons Attribution-NonCommercial-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
+	"modType" : "Creatures",
+	"name" : "Factory HotA Creatures",
+	"version" : "1.4.0",	
+	"changelog" : 
+	{
+		"1.4.0"   : [ "Adventure map updates." ],
+		"1.3.6"   : [ "Halfling and Halfling Grenadier portraits update." ],
+		"1.3.5"   : [ "Added water Derrick from DoR." ],
+		"1.3.4"   : [ "Couatls now become Bone Dragons in Skeleton Transformer. Automatons map sprites fixed." ],
+		"1.3.3"   : [ "Small icons updated using data from FizMig." ],
+		"1.3.2"   : [ "Small icons updated" ],
+		"1.3.1"   : [ "Stats updated" ],
+		"1.3.0"   : [ "Sheriff added" ],
+		"1.2.0"   : [ "Aerostat with dock added" ],
+		"1.1.0"   : [ "Repair added from Ben Yan's Factory prototype" ],
+		"1.0.0"   : [ "Release version. Models updated. Automatons changed to Termotrons. HotA Automatons added. Mechanics and engineers added" ],
+		"0.1.0"   : [ "Factory beta" ],
+		"0.0.4"   : [ "Armadillos, Couatls and Sandworms with their upgrades added. Prototype Halflings (with upgrade) and Gunslingers added. Also Bounty Hunters and  Juggernauts added. All as neutrals" ],
+		"0.0.3"   : [ "Dreadnought (neutral) added as a final version" ],
+		"0.0.2"   : [ "Musketeers and Arquebusiers from Courtyard added as Castle creatures" ],
+		"0.0.1"   : [ "Dreadnought neutral prototype added" ],
+	},
+	
+	
+	"creatures" :
+	[
+		"config/bandit.json",
+		"config/Dreadnought.json",
+		"config/Juggernaut.json",
+		"config/Automaton.json",
+		"config/Automaton B.json",
+		"config/halful.json",
+		"config/Cou.json",
+		"config/RedCou.json",
+		"config/Wurm.json",
+		"config/Ogloi.json",
+		"config/Bron.json",
+		"config/Bronup.json",
+		"config/Mechanic.json",
+		"config/Engineer.json",
+		"config/Autonew.json",
+		"config/Sautonew.json",
+		"config/lvl5unit.json",
+	],
+	"spells" :
+	[
+		"config/hotaRepair.json"
+	],
+	"conflicts" :
+	[
+		"refugee-town",
+		"hota.factory",
+		"ab-bad-ending-assets"
+	],
+
+}
