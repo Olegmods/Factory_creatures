@@ -1,0 +1,82 @@
+{
+	"faEngineer":
+	{
+		"name" :
+		{
+			"plural" : "Engineers",
+			"singular" : "Engineer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "neutral",
+//                       for now
+		"aiValue" : 210,
+///		"special" : true,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 170
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 210,
+		"graphics" :
+		{
+			"animation" : "CENGINE.DEF",
+			"map" : "avwengn.def",
+			"mapMask" : [ "VVV", "VAV"]
+			"iconSmall" : "engineers.bmp",
+			"iconLarge" : "engineer.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1
+			}
+		},
+		"growth" : 8,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack" : "MECHATTK.wav",
+			"defend" : "MECHDFND.wav",
+			"killed" : "MECHKILL.wav",
+			"move"   : "MECHMOVE.wav",
+			"wince"  : "MECHWNCE.wav"
+		},
+		"abilities" :
+		{
+			"breath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"repair" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.hotaRepair",
+				"val" : 2
+			},
+			"castLength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.hotaRepair",
+				"val" : 20
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}
+		}
+		"speed" : 7
+	}
+}
