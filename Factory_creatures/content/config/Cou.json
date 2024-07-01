@@ -1,0 +1,144 @@
+{
+	"faCouatl":
+	{
+		"name" :
+		{
+			"plural" : "Rainbow Couatls",
+			"singular" : "Rainbow Couatl"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"faction" : "neutral",
+//                       for now
+		"aiValue" : 3500,
+		"attack" : 17,
+		"special" : false,
+		"doubleWide" : true,
+		"hasDoubleWeek" : false,
+                "cost" :
+		{
+			"gold" : 2000
+		},
+		"damage" :
+		{
+			 "max" : 45,
+			 "min" : 25
+		},
+		"defense" : 17,
+		"fightValue" : 3200,
+		"upgrades" : [ "faRedCouatl" ],
+		"graphics" :
+		{
+			"animation" : "coudef.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "awvccoat.def",
+	  		"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "cous.bmp",
+			"iconLarge" : "cou.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 2, ///change to 1?
+		"hitPoints" : 160,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "COTLATTK.wav",
+			"defend": "COTLDFND.wav",
+			"killed": "COTLDEAD.wav",
+			"move": "COTLMOVE.wav",
+			"wince": "COTLWNCE.wav"              
+		},
+		"speed" : 11,
+		"abilities" :
+		{
+			"flying" :
+			{
+				"type" : "FLYING",
+				"subtype" : 0
+			},
+			"stoneGazeImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.stoneGaze",
+				"addInfo" : 0
+			},
+			"poisonImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.poison",
+				"addInfo" : 0
+			},
+			"bindImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.bind",
+				"addInfo" : 0
+			},
+			"diseaseImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.disease",
+				"addInfo" : 0
+			},
+			"paralyzeImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.paralyze",
+				"addInfo" : 0
+			},
+			"ageImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.age",
+				"addInfo" : 0
+			},
+			"deathCloudImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathCloud",
+				"addInfo" : 0
+			},
+			"thunderboltImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.thunderbolt",
+				"addInfo" : 0
+			},
+			"dispelHelpfulImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.dispelHelpful",
+				"addInfo" : 0
+			},
+			"deathStareImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.deathStare",
+				"addInfo" : 0
+			},
+			"acidBreathImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.acidBreath",
+				"addInfo" : 0
+			},
+			"acidBreathDamageImm" : 
+			{ 
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.acidBreathDamage",
+				"addInfo" : 0
+			},
+			"king" : 
+			{ 
+				"type" : "KING",
+				"val" : 1
+			},
+			"dragonNature" : {
+				"type" : "DRAGON_NATURE"
+			}
+		}	
+	}
+}

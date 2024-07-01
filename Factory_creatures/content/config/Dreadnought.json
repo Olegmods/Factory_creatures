@@ -1,0 +1,82 @@
+{
+	"faDreadnought":
+	{
+		"name" :
+		{
+			"plural" : "Steam Dreadnoughts",
+			"singular" : "Steam Dreadnought"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 4,
+			 "min" : 2
+		},
+		"faction" : "neutral",
+//                       for now
+		"aiValue" : 3029,
+		"special" : false,
+		"attack" : 18,
+		"cost" :
+		{
+			"gold" : 2500,
+			"mercury" : 1
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 40
+		},
+		"defense" : 20,
+		"fightValue" : 3771,
+		"graphics" :
+		{
+			"animation" : "dreadhotanew.DEF",
+			"map" : "avwdred.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall" : "DS.bmp",
+			"iconLarge" : "dread.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10,
+				"attack" : 1,
+				 
+			}
+		},
+		"doubleWide" : true,
+		"upgrades" : [ "faJuggernaut" ],
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "DREDSHOT.wav",
+			"defend" : "DREDDFND.wav",
+			"killed" : "DREDKILL.wav",
+			"move"   : "DREDMOVE.wav",
+			"wince"  : "DREDWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"nonLiving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"wideBreath" :
+			{
+				"type" : "WIDE_BREATH"
+			},
+			"twohexattack" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"king" : 
+			{ 
+				"type" : "KING",
+				"val" : 3
+			}
+		}
+	}
+}
