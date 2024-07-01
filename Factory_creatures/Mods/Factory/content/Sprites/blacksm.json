@@ -1,0 +1,13 @@
+{
+    "basepath" : "blacksmith/",
+	"images" :
+	[
+		{ "frame" : 0, "file" : "000.png"},
+		{ "frame" : 1, "file" : "001.png"},
+		{ "frame" : 2, "file" : "002.png"},
+		{ "frame" : 3, "file" : "002.png"},
+		{ "frame" : 4, "file" : "003.png"},
+		{ "frame" : 5, "file" : "004.png"},
+		{ "frame" : 6, "file" : "003.png"}
+	]
+}
