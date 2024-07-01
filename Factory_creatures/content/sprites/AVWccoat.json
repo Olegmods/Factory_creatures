@@ -1,0 +1,65 @@
+{
+    "basepath" : "couatlmap/",
+    "sequences" :
+    [
+        {
+            // Index of group, zero-based
+            "group" : 0,
+
+            // List of files in this group
+            "frames" :
+            [
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_000.png",
+                "mapc_001.png",
+                "mapc_002.png",
+                "mapc_003.png",
+                "mapc_004.png",
+                "mapc_005.png",
+                "mapc_006.png",
+                "mapc_007.png",
+                "mapc_008.png",
+                "mapc_009.png",
+                "mapc_010.png",
+                "mapc_011.png",
+                "mapc_012.png",
+                "mapc_013.png",
+                "mapc_014.png",
+                "mapc_015.png",
+                "mapc_016.png",
+                "mapc_017.png",
+                "mapc_018.png",
+                "mapc_019.png",
+                "mapc_020.png",
+                "mapc_021.png",
+                "mapc_022.png",
+                "mapc_023.png",
+                "mapc_024.png",
+                "mapc_025.png",
+                "mapc_026.png",
+                "mapc_027.png",
+                "mapc_028.png",
+                "mapc_029.png",
+            ]
+        }
+    ]
+
+}
