@@ -1,0 +1,28 @@
+{
+    "basepath" : "ciberium/hallicons/",
+	"images" :
+	[
+		{ "frame" : 0, "file" : "mage1new.bmp"},
+		{ "frame" : 1, "file" : "mage2new.bmp"},
+		{ "frame" : 2, "file" : "mage3new.bmp"},
+		{ "frame" : 3, "file" : "mage4new.bmp"},
+		{ "frame" : 4, "file" : "mage5new.bmp"},
+		{ "frame" : 7, "file" : "fort.bmp"},
+		{ "frame" : 8, "file" : "citadel.bmp"},
+		{ "frame" : 9, "file" : "castle.bmp"},
+		{ "frame" : 13, "file" : "capitol.bmp"},
+		{ "frame" : 17, "file" : "magestone.bmp"},
+		{ "frame" : 21, "file" : "pump.bmp"},
+		{ "frame" : 22, "file" : "silo2.bmp"},
+		{ "frame" : 23, "file" : "spec2.bmp"},
+		{ "frame" : 26, "file" : "grailnew.bmp"},
+		{ "frame" : 39, "file" : "fu.bmp"},
+		{ "frame" : 41, "file" : "saku.bmp"},
+		{ "frame" : 45, "file" : "rog.bmp"},
+		{ "frame" : 47, "file" : "autnew.bmp"},
+		{ "frame" : 50, "file" : "serp.bmp"},
+		{ "frame" : 52, "file" : "rogu.bmp"},
+		{ "frame" : 54, "file" : "autnewu.bmp"},
+		{ "frame" : 57, "file" : "serpu.bmp"},
+	]
+}
