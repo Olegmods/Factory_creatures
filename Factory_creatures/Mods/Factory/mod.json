@@ -1,0 +1,79 @@
+{
+	"name" : "Factory (Unofficial)",
+	"description" : "HotA's Factory in original style",
+	"author" : "HotA Crew, mod by Olegmods.INC with usage of models from mods: Neutral Heroes (VCMI), Antagarich Burning (Bandit def) (VCMI), Factory demo (Spells' configs) Third Upgrades Mod (New Repair def) (ERA) and ERA+ (Bounty Hunter rip) (ERA). Also used assets from World of Warcraft (Both Termotrons), Nepheretes's Oasis old materials, PvZ2 (Wild West first wave) and fiorin's hero pack (male Mercenary).",
+	"licenseName" : "Creative Commons Attribution-NonCommercial-ShareAlike",
+	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
+	"contact" : "www.forum.df2",
+	"version" : "1.1.0",
+	"modType" : "Town",
+	"changelog" : 
+	{
+		"1.1.0"   : [ "Bellwether Armadillo bug fixed. Also now can be used with Ciberium mod." ],
+		"1.0.3"   : [ "Minor fixes" ],
+		"1.0.2"   : [ "Border fix" ],
+		"1.0.1"   : [ "Sam added" ],
+		"1.0.0"   : [ "Release version. Additions from HotA Factory. Added new heroes. Mage guild changed. Grail changed. Heroes pool edited" ],
+		"0.3.0"   : [ "Added another special building. Graphical changes (siege and faction background)" ],
+		"0.2.0"   : [ "Added 3 test heroes (Todd (Chain Lightning), Victoria (Land Mine) and Jangaard (Scouting))" ],
+		"0.1.1"   : [ "Creatures' faction changed from neutral to Factory" ],
+		"0.1.0"   : [ "Graphical change" ],
+		"0.0.1"   : [ "Alpha version. Ciberium as base" ],
+	},
+	"depends" :
+	[
+		"factory_creatures",
+		"hota.wastelandterrain"
+		"hota.heroes3datapatch.factorydata"
+	],
+	"factions" :
+	[
+		"config/ciberium/town/buildings.json",
+		"config/ciberium/town/faction.json",
+		"config/ciberium/town/siege.json",
+		"config/ciberium/town/spells.json",
+		"config/ciberium/town/structures.json",
+		"config/ciberium/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/ciberium/creatures/factcr.json"
+	],
+	"heroClasses" : [ 
+		"config/ciberium/heroes/merc", 
+		"config/ciberium/heroes/artif"
+	],
+	"spells" :
+	[
+		"config/ciberium/teslaLightning.json"
+	],
+	"heroes" : [
+		"config/ciberium/heroes/boyd",
+		"config/ciberium/heroes/jangaard",
+		"config/ciberium/heroes/umender",
+		"config/ciberium/heroes/victoria",
+		"config/ciberium/heroes/judith",
+		"config/ciberium/heroes/todd",
+		"config/ciberium/heroes/agar",
+		"config/ciberium/heroes/bertram",
+		"config/ciberium/heroes/celestine",
+		"config/ciberium/heroes/dury",
+		"config/ciberium/heroes/eanswythe",
+		"config/ciberium/heroes/floribert",
+		"config/ciberium/heroes/frederick",
+		"config/ciberium/heroes/henrietta",
+		"config/ciberium/heroes/melchior",
+		"config/ciberium/heroes/morton",
+		"config/ciberium/heroes/murdoch",
+		"config/ciberium/heroes/sam",
+		"config/ciberium/heroes/tancred",
+		"config/ciberium/heroes/tarnum",
+		"config/ciberium/heroes/tavin",
+		"config/ciberium/heroes/wrathmont",
+		"config/ciberium/heroes/wynona",
+		"config/ciberium/heroes/ziph"
+	],
+
+	"objects" : [ "config/ciberium/dwellings", "config/ciberium/inventorForge" ]
+}
