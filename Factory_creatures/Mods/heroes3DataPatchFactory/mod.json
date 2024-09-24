@@ -1,0 +1,24 @@
+{
+	"name" : "Heroes III data patch (Factory version)",
+	"description" : "Fixes & improvements to graphics and sounds for some of SoD game assets.",
+	"modType" : "Graphical",
+	"author": "Graphics and sounds: HotA Crew, mod: Kuririn & avatar",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0.0",
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+	"depends" : [ "hota.mapdecorations", "hota.highlandsterrain" ],
+	"conflicts" : [ "hota.heroes3datapatch" ],
+	"factions" :
+	[
+		"config/heroes3DataPatchFactory/confluxTerrain.json",
+		"config/heroes3DataPatchFactory/structures.json",
+		"config/heroes3DataPatchFactory/boats.json"
+	],
+	"objects" :
+	[
+		"config/heroes3DataPatchFactory/objects.json"
+	]
+}

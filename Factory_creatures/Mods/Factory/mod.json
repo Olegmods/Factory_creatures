@@ -1,15 +1,16 @@
 {
 	"name" : "Factory (Unofficial)",
-	"description" : "HotA's Factory in original style",
-	"author" : "HotA Crew, mod by Olegmods.INC with usage of models from mods: Neutral Heroes (VCMI), Antagarich Burning (Bandit def) (VCMI), Factory demo (Spells' configs) Third Upgrades Mod (New Repair def) (ERA), Tides of War (Couatls' ability) (VCMI) and ERA+ (Bounty Hunter rip) (ERA). Also used assets from World of Warcraft (Both Termotrons), Nepheretes's Oasis old materials, PvZ2 (Wild West first wave) and fiorin's hero pack (male Mercenary).",
+	"description" : "HotA's Factory in original style. Incompatible with Ciberium mod",
+	"author" : "HotA Crew, mod by Olegmods.INC with usage of models from mods: Neutral Heroes (VCMI), Antagarich Burning (Bandit def) (VCMI), Factory demo (Spells' configs) Third Upgrades Mod (New Repair def) (ERA) and ERA+ (Bounty Hunter rip) (ERA). Also used assets from World of Warcraft (Both Termotrons), Nepheretes's Oasis old materials, PvZ2 (Wild West first wave) and fiorin's hero pack (male Mercenary).",
 	"licenseName" : "Creative Commons Attribution-NonCommercial-ShareAlike",
 	"licenseURL" : "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
-	"contact" : "https://github.com/Olegmods/",
-	"version" : "1.1.0",
+	"contact" : "www.forum.df2",
+	"version" : "2.0.0",
 	"modType" : "Town",
 	"changelog" : 
 	{
-		"1.1.0"   : [ "Bellwether Armadillo bug fixed. Also now can be used with Ciberium mod." ],
+		"2.0.0"   : [ "New graphics for some objects and structures." ],
+		"1.1.0"   : [ "Bellwether Armadillo bug fixed." ],
 		"1.0.3"   : [ "Minor fixes" ],
 		"1.0.2"   : [ "Border fix" ],
 		"1.0.1"   : [ "Sam added" ],
@@ -24,7 +25,7 @@
 	[
 		"factory_creatures",
 		"hota.wastelandterrain"
-		"hota.heroes3datapatch.factorydata"
+		"hota.heroes3datapatchfactory"
 	],
 	"factions" :
 	[

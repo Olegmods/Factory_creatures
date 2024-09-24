@@ -1,0 +1,32 @@
+{
+	"name" : "New adventure map graphics for towns & creatures (Factory version)",
+	"description" : "This option enables new graphical objects added by HotA Crew. As of now, this mod consist of new animations for towns on map as well as fixed animations of wandering monsters",
+	"modType" : "Graphical",
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.3.6",
+	"factions" :
+	[
+		"config/hota/newGraphics/newTownAnimations"
+	],
+	"conflicts" : [ "hota.newgraphics" ],
+	"creatures" :
+	[
+		"config/factory_patch/newGraphics/castle/newCreatureAnimations",
+		"config/factory_patch/newGraphics/rampart/newCreatureAnimations",
+		"config/factory_patch/newGraphics/tower/newCreatureAnimations",
+		"config/factory_patch/newGraphics/inferno/newCreatureAnimations",
+		"config/factory_patch/newGraphics/necropolis/newCreatureAnimations",
+		"config/factory_patch/newGraphics/dungeon/newCreatureAnimations",
+		"config/factory_patch/newGraphics/stronghold/newCreatureAnimations",
+		"config/factory_patch/newGraphics/fortress/newCreatureAnimations",
+		"config/factory_patch/newGraphics/conflux/newCreatureAnimations",
+		"config/factory_patch/newGraphics/neutrals/newCreatureAnimations"
+	],
+	"heroClasses" : 
+	[
+		"config/factory_patch/newGraphics/genderedHeroGraphics"
+	]
+}

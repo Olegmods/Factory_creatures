@@ -1,0 +1,155 @@
+{
+	"core:castle" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/castle/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/castle/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/castle/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/castle/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:rampart" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/rampart/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/rampart/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/rampart/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/rampart/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:tower" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/tower/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/tower/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/tower/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/tower/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:inferno" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/inferno/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/inferno/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/inferno/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/inferno/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:necropolis" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/necropolis/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/necropolis/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/necropolis/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/necropolis/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:dungeon" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/dungeon/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/dungeon/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/dungeon/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/dungeon/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:stronghold" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/stronghold/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/stronghold/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/stronghold/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/stronghold/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:fortress" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/fortress/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/fortress/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/fortress/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/fortress/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	},
+	"core:conflux" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/conflux/adventureMap/town/fort.def" },
+					"citadel" : { "animation" : "hota/conflux/adventureMap/town/citadel.def" },
+					"castle" : { "animation" : "hota/conflux/adventureMap/town/castle.def" },
+					"capitol" : { "animation" : "hota/conflux/adventureMap/town/capitol.def" }
+				}
+			}
+		}
+	}
+}

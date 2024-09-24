@@ -42,7 +42,7 @@
 				},
 				"templates" : {
 					"default" : {	
-						"animation" : "ciberium/avgdread.def",
+						"animation" : "ciberium/adventure-map/manufmapnew.def",
 						"mask" : [ "VVV", "VVV", "VBA"]
 					}
 				}
@@ -83,7 +83,7 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "ciberium/adventure-map/faguns.def",
+						"animation" : "ciberium/adventure-map/saloon.def",
 						"mask" : [ "VVVV", "VVVV", "VVBB", "VVBA" ]
 					}
 				}
@@ -97,7 +97,7 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "ciberium/adventure-map/facouat.def",
+						"animation" : "ciberium/adventure-map/sepentmap.def",
 						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
 					}
 				}
